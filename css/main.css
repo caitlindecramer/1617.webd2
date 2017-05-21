@@ -6,23 +6,57 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+}
 body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
   background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+  
 }
 
-.intro {
-  width: 90vw;
+header {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  padding-top: 0px;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+footer {
+  text-decoration: none;
+}
+.button {
+  background-color: rgba(104,191,202,1);
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;''
+  border: solid 2px rgba(104,191,202,1);
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+}
+.button:hover {
+  color:rgba(104,191,202,1);
+  background-color: white;
+  border: solid 2px rgba(104,191,202,1);
+}
+
+
+/* header 
+--------------- */
+
+.first_wrapper {
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+/*footer*/
+.footer_wrapper {
+  background-color: rgba(248,186,38,1);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* over ons pagina */
+.team {
+  width: 250px;
+  height: auto;
 }
