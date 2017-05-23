@@ -36,3 +36,6 @@ footer {
   font-style: italic;
   font-size: 13px;
 }
+.bold {
+  font-weight: 400;
+}

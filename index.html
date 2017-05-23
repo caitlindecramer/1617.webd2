@@ -46,8 +46,9 @@
     <!-- Stylesheets: App -->
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/navigation.css">
+    <link rel="stylesheet" media="all" href="css/main.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
@@ -57,17 +58,57 @@
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->
     <script src="js/main.js"></script>
-<nav>
-    <ul>
-        <li><a href="index.html"><img src="assets/images/decramer_agency_logo.png" alt="logo" height="50px"></a></li>
-        <li><a href="over_ons.html">Over ons</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-    <h1>Dit is een titel</h1>
-    <p>Dit is een beetje tekst zodat ik kan checken of dat mijn css werkt.</p>
-    <h2>Dit is een ondertitel</h2>
-    <p>Dit is weer een beetje tekst</p>
+<!-- Begin hoofdnavigatie -->
+    <div class="grid__wrapper nav_wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__column-12">
+                    <header>
+                    <div class="logo_box">
+                        <a class="logo" href="index.html"><img src="assets/images/decramer_agency_logo.png" alt="logo"></a>
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="over_ons.html">Over ons</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- footer -->
+    <div class="grid__wrapper footer_wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__column-4 grid__offset-4">
+                    <a target="#" href="https://www.facebook.com">
+                        <img class="social_icons" src="assets/icons/facebook.png" alt="facebook logo">
+                    </a>
+                    <a target="#" href="https://twitter.com/?lang=nl">
+                        <img class="social_icons" src="assets/icons/twitter.png" alt="twitter logo">
+                    </a>
+                    <a target="#" href="https://www.instagram.com">
+                        <img class="social_icons" src="assets/icons/instagram.png" alt="instagram logo">
+                    </a>
+                    <a target="#" href="https://www.pinterest.com">
+                        <img class="social_icons" src="assets/icons/pinterest.png" alt="pinterest logo">
+                    </a>
+                </div>
+            </div>
+            <div class="grid__row">
+                <div class="grid__column-12">
+                    <footer>
+                    <p>Decramer Agency / Haven 16, 9961 Boekhoute / caitlind@telenet.be / 0472/06.08.77</p>
+                    <p>© 2017 / sitemap</p>
+                    <p>Dit is een schoolopdracht, alles wat hierop staat is fictief.</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
   </body> 
 </html>
