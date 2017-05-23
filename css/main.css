@@ -45,19 +45,19 @@ a {
 /* deze class zorgt ervoor dat de tekst start onder mijn header en eindigt boven mijn footer */
 .first_wrapper {
   padding-top: 150px;
-  margin-bottom: 170px;
+  padding-bottom: 50px;
 }
 /*footer*/
 .footer_wrapper {
   background-color: rgba(248,186,38,1);
-  position: fixed;
+  position: static;
   width: 100%;
   bottom: 0;
 }
 .social_icons {
-  width: 50px;
+  width: 35px;
   height: auto;
-  margin: 17px;
+  margin: 25px;
   margin-bottom: 0;
 }
 
@@ -70,6 +70,7 @@ a {
   text-align: center;
 }
 
+/* voor het google maps kaartje */
 .mapouter {
   overflow: hidden;
   height: 500px;
@@ -86,4 +87,8 @@ iframe {
   border: 0;
   scroll-behavior: unset;
   margin: 0;
+}
+
+.footer_link {
+  color: white;
 }
