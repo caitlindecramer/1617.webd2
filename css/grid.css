@@ -48,6 +48,7 @@
     margin: 0 -12px;
     padding: 0;
     overflow: hidden;
+    padding: 20px 0;
 }
 
 .grid__wrapper:after,
