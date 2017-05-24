@@ -136,3 +136,17 @@ iframe {
     background: rgba(104,191,202,0.8);
     opacity: 1;  
 }
+
+/* portfolio items */
+.portfolio_items {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
+
+.port_container{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
