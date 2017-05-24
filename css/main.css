@@ -142,11 +142,4 @@ iframe {
   width: 100%;
   height: auto;
   margin: 20px 0;
-  display: block;
-}
-
-.port_container{
-  position: relative;
-  width: 100%;
-  height: auto;
 }
