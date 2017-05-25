@@ -78,7 +78,7 @@ a {
 /* voor het google maps kaartje */
 .mapouter {
   overflow: hidden;
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 .gmap_canvas {
@@ -146,4 +146,26 @@ iframe {
 
 .port_container{
   position: relative;
+}
+
+
+
+
+.form {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(184,184,184,1);
+  border: 1px solid rgba(184,184,184,1);
+  
+}
+
+.bericht {
+height: 120px;
+margin-top: 65px;
+
 }
