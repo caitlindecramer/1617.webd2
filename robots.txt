@@ -4,4 +4,3 @@ Disallow: /assets/fonts/
 Disallow: /css/
 Disallow: /js/
 Disallow: /vendor/
-Sitemap: /sitemap.xml
